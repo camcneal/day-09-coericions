@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Coercions</title>
+  </head>
+  <body>
+    <h2> Coercions </h2>
+    <table border="1">
+    <tr>
+    <td><h3>Starting Values</h3></td>
+    <td><h3>Number</h3></td>
+    <td><h3>String</h3></td>
+    <td><h3>Boolean</h3></td>
+    </tr>
+    <tr>
+    <td>Undefined</td>
+    <td>NaN</td>
+    <td>"undefined"</td>
+    <td>false</td>
+    </tr>
+    <tr>
+    <td>Null</td>
+    <td>0</td>
+    <td>"null"</td>
+    <td>false</td>
+    </tr>
+    <tr>
+    <td>true</td>
+    <td>1</td>
+    <td>"true"</td>
+    <td>true</td>
+    </tr>
+    <tr>
+    <td>False</td>
+    <td>0</td>
+    <td>"false"</td>
+    <td>false</td>
+    </tr>
+    <tr>
+    <td>""</td>
+    <td>0</td>
+    <td>""</td>
+    <td>false</td>
+    </tr>
+    <tr>
+    <td>"1.2"</td>
+    <td>""</td>
+    <td>"1.2"</td>
+    <td>true</td>
+    </tr>
+    <tr>
+    <td>"one"</td>
+    <td>NaN</td>
+    <td>"one"</td>
+    <td>true</td>
+    </tr>
+    <tr>
+    <td>0</td>
+    <td>0</td>
+    <td>"0"</td>
+    <td>false</td>
+    </tr>
+    <tr>
+    <td>NaN</td>
+    <td>NaN</td>
+    <td>"NaN"</td>
+    <td>false</td>
+    </tr>
+    <tr>
+    <td>Infinty</td>
+    <td>Infinty</td>
+    <td>"Infinty"</td>
+    <td>true</td>
+    </tr>
+    <tr>
+    <td>-Infinty</td>
+    <td>-Infinty</td>
+    <td>"-Infinty"</td>
+    <td>true</td>
+    </tr>
+    <tr>
+    <td>1</td>
+    <td>1</td>
+    <td>"1"</td>
+    <td>true</td>
+    </tr>
+    <tr>
+    <td>{}</td>
+    <td>NaN</td>
+    <td>"[object Object]"</td>
+    <td>true</td>
+    </tr>
+    <tr>
+    <td>[]</td>
+    <td>0</td>
+    <td>""</td>
+    <td>true</td>
+    </tr>
+    <tr>
+    <td>[12]</td>
+    <td>12</td>
+    <td>"12"</td>
+    <td>true</td>
+    </tr>
+    <tr>
+    <td>['something']</td>
+    <td>NaN</td>
+    <td>"something"</td>
+    <td>true</td>
+    </tr>
+    <tr>
+    <td>function(){}</td>
+    <td>NaN</td>
+    <td>"function(){}"</td>
+    <td>true</td>
+    </tr>
+
+
+
+
+
+
+
+
+    </table>
+
+
+  </body>
+</html>
